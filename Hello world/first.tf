@@ -1,14 +1,7 @@
 //block lable1{
-  //  identifier = expressions
+//  identifier = expressions
 // }
 
-output first {
-    value = "Hello world"
-}
-
-
-provider "aws"{
-  region:"us-east1"
-
-  
+output "first" {
+  value = "Hello world"
 }
