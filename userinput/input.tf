@@ -10,3 +10,9 @@ output "printname" {
 output "printlist" {
   value = "First product is ${var.products[0]}"
 }
+output "default" {
+  value = "default value example"
+}
+output "list" {
+  value = "hello ${var.listexample}"
+}

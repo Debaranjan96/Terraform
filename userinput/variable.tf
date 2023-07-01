@@ -8,6 +8,9 @@ variable "age" {
 }
 
 variable "products" {
-  type = list(number)
+  type = string
 
+}
+variable "listexample" {
+  type = list(string)
 }
